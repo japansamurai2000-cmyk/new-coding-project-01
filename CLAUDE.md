@@ -42,5 +42,8 @@ DOM-based (no canvas). State is a plain array + current player + score object. N
 ## Git / GitHub
 
 - Remote: `https://github.com/japansamurai2000-cmyk/new-coding-project-01`
-- Commit after every meaningful change and push so GitHub stays current.
-- Use descriptive commit messages; co-author line: `Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>`
+- **After completing any meaningful unit of work, commit and push immediately.** This includes new features, bug fixes, refactors, and file additions. Never leave finished work uncommitted.
+- Stage specific files by name (not `git add -A`) to avoid accidentally committing unrelated files.
+- Commit messages should be concise and describe *what changed and why*, not just "update file".
+- Always append the co-author line: `Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>`
+- Always push after committing so GitHub reflects the current state of work.
